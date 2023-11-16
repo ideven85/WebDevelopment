@@ -1,0 +1,49 @@
+
+#box {
+    width: 330px;
+    height: 330px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    opacity: 25%;
+
+}
+
+#box div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+
+}
+
+
+#div1{
+    height: 30px;
+    width: 30px;
+    background-color: #ff9bc9;
+    order: 1;
+}
+
+
+#div2{
+    height: 40px;
+    width: 40px;
+    background-color: #df8eff;
+    order: 6;
+}
+
+
+#div3{
+    background-color: grey;
+    order: 31;
+
+}
+
+#div4{
+    background-color: maroon;
+    order: 6;
+}

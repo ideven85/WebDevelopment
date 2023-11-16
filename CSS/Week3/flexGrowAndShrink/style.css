@@ -1,0 +1,72 @@
+ #container{
+    height: 500px;
+    width: 300px;
+    background-color: lightgrey;
+    display: flex;
+ }
+#container div{
+    height: 200px;
+    width: 200px;
+}
+ /*
+     div1=120
+     div2=180
+
+#div1{
+    background-color: cyan;
+    flex-grow: 4;
+    flex-shrink: 4;
+
+
+}
+
+
+#div2{
+    background-color: red;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+*/
+
+ /*
+ div1=180
+ div2=120
+  */
+ #div1{
+     background-color: cyan;
+     flex-grow: 4;
+     flex-shrink: 1;
+
+
+ }
+
+
+ #div2{
+     background-color: red;
+     flex-grow: 1;
+     flex-shrink: 4;
+ }
+
+/*
+
+ #div3{
+    background-color: grey;
+     flex-grow: 1;
+
+}
+ !*200/(1+4+3+2)*!
+
+#div4{
+    background-color: maroon;
+    flex-grow: 2;
+
+}
+!*
+
+#div5{
+    background-color: orange;
+    flex-grow: 2;
+
+}
+*!
+*/
