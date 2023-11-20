@@ -165,10 +165,10 @@ cssCopy codeli a {
 .skill-progress {
     width: 7rem;
     height: 1.4rem;
-    background-color: lightgrey;
+    background-color: black;
     border-radius: 0.8rem;
     border: 2px solid black;
-    padding: auto;
+    padding: inherit;
     margin: 20px;
 }
 
@@ -190,20 +190,23 @@ cssCopy codeli a {
 /*common color classes */
 
 .text-highlight {
-    color: #2857a4;
+    color:orange;
     font-weight: 600;
 
 }
 
 .mb-blue {
-    background-color: #2857a4;
+    background-color: blue;
 }
 
 
-/*Percentage Classes */
+/*Percentage Classes
+I hate CSS
+Just want to become a Java developer
+*/
 
 .eighty-five-percent {
-    width: 85%;
+    width: 50%;
     height: inherit;
 }
 h3{
