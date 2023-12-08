@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .containerFlexCount{
+            background-color: aquamarine;
+            max-width: 800px;
+            min-height: 400px;
+        }
+        .containerFlexCount p{
+            background-color: rosybrown;
+            color: black;
+            font-size: 25px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .containerFlexCount{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        p{
+            align-self: center;
+        }
+        p:nth-child(even){
+            height: 100px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="#section1">First</a>
+    <a href="#section2">Second</a>
+    <a href="#section3">Third</a>
+
+    <div class="containerFlexCount">
+        <p>Hey</p>
+        <p>Hi</p>
+        <p>Hello there</p>
+        <p>How are you</p>
+        <p>What is up</p>
+        <p>Hey mate</p>
+
+    </div>
+
+    <div>
+        <a href="https://example.com" target="_top">Visit Example Website</a>
+
+        <h1 id="section1">section1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ducimus ullam laudantium neque cupiditate? Itaque accusamus, placeat, porro mollitia expedita tempora necessitatibus dolores libero eligendi distinctio eum cupiditate delectus in quidem eaque esse. Quaerat praesentium, alias fugiat consequatur odio aliquam incidunt possimus non sequi quia aut ratione. Labore, odit quod.</p>
+    </div>
+    <div>
+        <h1 id="section2">Section 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ducimus ullam laudantium neque cupiditate? Itaque accusamus, placeat, porro mollitia expedita tempora necessitatibus dolores libero eligendi distinctio eum cupiditate delectus in quidem eaque esse. Quaerat praesentium, alias fugiat consequatur odio aliquam incidunt possimus non sequi quia aut ratione. Labore, odit quod.</p>
+    </div>
+    <div>
+        <h1 id="section3">Section 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ducimus ullam laudantium neque cupiditate? Itaque accusamus, placeat, porro mollitia expedita tempora necessitatibus dolores libero eligendi distinctio eum cupiditate delectus in quidem eaque esse. Quaerat praesentium, alias fugiat consequatur odio aliquam incidunt possimus non sequi quia aut ratione. Labore, odit quod.</p>
+    </div>
+
+</body>
+</html>

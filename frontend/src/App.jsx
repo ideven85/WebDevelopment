@@ -5,14 +5,13 @@ import { Store } from './pages/Store';
 import { About } from './pages/About';
 import { Navbar } from './components/Navbar';
 import {ShoppingCartProvider} from "./context/ShoppingCartContext.jsx";
-
 function App() {
  
 
   return (
     <ShoppingCartProvider>
     <Navbar />
-    <Container className='mb-4'>
+    <Container >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
