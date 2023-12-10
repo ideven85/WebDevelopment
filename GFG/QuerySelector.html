@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv" class="my-class" data-value="10" data-hello="100">Hello, world!</div>
+</body>
+<script>
+    // Get the element
+const myDiv = document.querySelector('#myDiv');
+
+// Modify the attributes
+myDiv.setAttribute('id', 'newId');
+myDiv.setAttribute('class', 'new-class');
+myDiv.setAttribute('data-value', '20');
+
+// Modify the properties
+myDiv.textContent = 'Goodbye, world!';
+myDiv.id = 'newerId';
+myDiv.className = 'newer-class';
+//myDiv.dataset.value = '30';
+
+</script>
+</html>
