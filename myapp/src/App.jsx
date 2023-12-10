@@ -14,7 +14,7 @@ function Counter(){
       <>
       <Calculator />
       <div>
-      <button onClick={handleButtonClick}>Count is {count}</button>
+      <button className="mb-3" onClick={handleButtonClick}>Count is {count}</button>
       </div>
       </>
     )
