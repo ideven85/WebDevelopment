@@ -22,7 +22,22 @@ myDiv.setAttribute('data-value', '20');
 myDiv.textContent = 'Goodbye, world!';
 myDiv.id = 'newerId';
 myDiv.className = 'newer-class';
+
+document.cookie = 'user=Abigail; max-age=86400; path=/';
+console.log(document.cookie);
+
+const book = encodeURIComponent('Javascript CookBook');
+document.cookie=`title=${book}`;
+console.log(document.cookie);
+localStorage.setItem('Hello',document.cookie);
+//localStorage.setItem(document.cookie);
+sessionStorage.setItem('Name','Deven');
 //myDiv.dataset.value = '30';
+const msg =() =>{
+    return "Hello hai";
+};
+alert(msg());
+
 
 </script>
 </html>
