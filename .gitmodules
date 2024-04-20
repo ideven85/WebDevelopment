@@ -4,33 +4,33 @@
 [submodule "ic01-static-checking"]
 	path = ic01-static-checking
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic01-static-checking/.git
-[submodule "Software_Construction/ic02-testing"]
-	path = Software_Construction/ic02-testing
+[submodule "ic02-testing"]
+	path = ic02-testing
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic02-testing/.git
-[submodule "Software_Construction/ic04-specs"]
-	path = Software_Construction/ic04-specs
+[submodule "ic04-specs"]
+	path = ic04-specs
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic04-specs/.git
-[submodule "Software_Construction/ic05-designing-specs"]
-	path = Software_Construction/ic05-designing-specs
+[submodule "ic05-designing-specs"]
+	path = ic05-designing-specs
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic05-designing-specs/.git
-[submodule "Software_Construction/ic06-adts"]
-	path = Software_Construction/ic06-adts
+[submodule "ic06-adts"]
+	path = ic06-adts
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic06-adts/.git
-[submodule "Software_Construction/ic07-af-ri"]
-	path = Software_Construction/ic07-af-ri
+[submodule "ic07-af-ri"]
+	path = ic07-af-ri
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic07-af-ri/.git
-[submodule "Software_Construction/ic08-interfaces-subtyping"]
-	path = Software_Construction/ic08-interfaces-subtyping
+[submodule "ic08-interfaces-subtyping"]
+	path = ic08-interfaces-subtyping
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic08-interfaces-subtyping/.git
-[submodule "Software_Construction/ic09-functional"]
-	path = Software_Construction/ic09-functional
+[submodule "ic09-functional"]
+	path = ic09-functional
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic09-functional/.git
-[submodule "Software_Construction/ic10-equality"]
-	path = Software_Construction/ic10-equality
+[submodule "ic10-equality"]
+	path = ic10-equality
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic10-equality/.git
-[submodule "Software_Construction/ic11-recursive"]
-	path = Software_Construction/ic11-recursive
+[submodule "ic11-recursive"]
+	path = ic11-recursive
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic11-recursive/.git
-[submodule "Software_Construction/ic12-intexpr"]
-	path = Software_Construction/ic12-intexpr
+[submodule "ic12-intexpr"]
+	path = ic12-intexpr
 	url = https://web.mit.edu/6.102/www/sp24/inclass/ic12-intexpr/.git
