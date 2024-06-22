@@ -11,10 +11,10 @@ const promise = new Promise((resolve, reject) =>
     .then(value => {
         console.log("In first promise");
         return "Then"
-    }).catch(reason => console.log("Error on second promise"))
+    }).catch(reason => console.log("Error on second promise"+reason))
     .finally(console.log);
 
-console.log(promise.then(x => {
-    console.log(10);
-}).catch(reason => console.log("Bored of promises"))
-    .finally(console.log));
+// console.log(promise.then(x => {
+//     console.log(10);
+// }).catch(reason => console.log("Bored of promises"))
+//     .finally(console.log));

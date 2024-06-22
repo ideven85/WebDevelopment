@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation</title>
+
+</head>
+
+<body>
+    <h1 class="first">Somethiing</h1>
+    <h1 class="second">Document Object Model</h1>
+    <p id="para"> Lets Learn more about DOM manipulation here..</p>
+    <div id="parent">
+        <h3>Inner Heading</h3>
+    </div>
+
+    <script>
+        //console.log(document.querySelectorAll("h1"))
+        const paragraph = document.getElementById('para');
+        
+        var parentElement = document.getElementById("parent");
+        var childElement = document.createElement("div");
+var textNode = document.createTextNode("Hello, World!");
+// Appending multiple elements to the parent element
+parentElement.append(paragraph, textNode);
+var childElement = document.createElement("p");
+var text = document.createTextNode("How are you")
+childElement.innerHTML="Hi";
+// Appending the child element to the parent element
+parentElement.appendChild(childElement);
+document.getElementById(parent).append(childElement,text);
+
+        const firstHead = document.querySelectorAll("h1");
+        console.log(typeof firstHead);
+        console.log(firstHead)
+        const second=document.querySelector(".second");
+        console.log(typeof second);
+        console.log(document.querySelector("#para"))
+
+    </script>
+
+</body>
+
+</html>
