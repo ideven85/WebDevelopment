@@ -1,0 +1,30 @@
+/* Write code for your CSS here */
+.container{
+    align-content: center;
+}
+.skills{
+
+    overflow: hidden;
+
+
+}
+.skills li{
+    height: 20px
+}
+.skill{
+    background-color: lightblue;
+    margin-right: 20px;
+    float: left;
+
+    overflow: hidden;
+    list-style: none;
+    font-size: 30px;
+    padding: 20px;
+
+
+
+}
+.lineContainer {
+    overflow: hidden; /* clear the float */
+    border: 1px solid #000
+}
